@@ -3,3 +3,97 @@ Theme Name: Quantum World
 Author: Mark
 Description: shape and cool, hand-coded
 */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft Yahei;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.wfont {
+	color: #fff;
+}
+
+.banner {
+	background-image: url('./images/banner-1.png');
+	background-repeat:  no-repeat;
+	background-position: top;
+	background-size: 100% auto;
+	width: 100%;	
+	height: 1446px;
+	margin: 0 auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.nav {
+	height: 99px;
+	width: 100%;
+	background-color: rgba(255,255,255 ,0.5);
+	z-index: 9;
+}
+
+.nav_content {
+	width: 1241px;
+	margin: 0 auto;
+	height: 99px;
+	background: url('./images/logo.png') no-repeat 120px 31px;
+	overflow: hidden;
+}
+
+.nav_bar {
+	width: 640px;
+	padding-top: 35px;
+	float: right;
+}
+
+.nav_bar div{
+	margin-top: 6px;
+	height: 14px;	
+	width: 14px;
+	background-image: url('./images/clk.png');
+	float: left;
+}
+
+.nav_bar span{
+	float: left;
+	display: inline-block;
+	margin-left: 22px;
+	margin-right: 18px;
+	height: 21px;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.nav_bar span:hover {
+	border-radius: 4px;
+	padding-bottom: 9px;
+	border-bottom: 3px #fff solid;
+}
+
+.banner_carousel {
+	height: 347px;
+	width: 707px;
+	margin: 125px auto 0;
+	background-color: blue;
+	background: url('./images/slide-1.png') no-repeat center top;
+}
+
+.banner_text{
+	height: 29px;
+	width: 921px;
+	font-size: 29px;
+	margin: 170px auto 0px;
+	line-height: 29px;
+	text-align: center;
+}
