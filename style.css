@@ -3,6 +3,8 @@ Theme Name: Quantum World
 Author: Mark
 Description: shape and cool, hand-coded
 */
+@import url('./content.css');
+
 * {
 	margin: 0;
 	padding: 0;
@@ -34,6 +36,7 @@ a {
 	position: absolute;
 	top: 0;
 	left: 0;
+	margin: 0 auto;
 }
 
 .nav_content {
@@ -80,7 +83,7 @@ a {
 	background-position: top;
 	background-size: 100% auto;
 	width: 100%;	
-	height: 2046px;
+	height: 200px;
 	margin: 0 auto;
 	position: relative;
 	top: 0;
@@ -216,9 +219,11 @@ a {
 }
 
 .tothetop {
+	width: 200px;
+	display: block;
 	font-size: 20px;
-    position: relative;
-    top: 210px;
-    left: 1000px;
     font-weight: 800;
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
 }

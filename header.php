@@ -17,4 +17,9 @@
                 <div></div> <span>联系方式</span> </div>
         </div>
     </div>
+
+    <div class="banner clearfix">
+        <div class="banner_text wfont">没有最好，只有更好。</div>
+<!--         <div class="banner_carousel"></div> -->
+    </div>  
     <!--header-->
